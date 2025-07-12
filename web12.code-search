@@ -1,0 +1,14 @@
+# Query: hala
+# ContextLines: 1
+
+2 results - 2 files
+
+php\db.php:
+  2  $servername = "localhost";
+  3: $username = "";
+  4  $password = "Cinema999!";
+
+php\signin.php:
+  32          $conn->close();
+  33:         echo "Pass ghalat";
+  34          header("Location: ../login.php");
